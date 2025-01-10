@@ -1,0 +1,64 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #333;
+    padding: 180px;
+    background-image: url('gamm.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+
+}
+
+h2 {
+    font-size: 32px; 
+    color: #2600d0;
+    margin-top: 20px;
+    text-align: center;
+    background-image: linear-gradient(rgb(220, 125, 141),rgb(148, 108, 114),rgb(255, 192, 203));
+}
+
+
+p {
+    font-size: 20px; 
+    margin: 10px ;
+    text-align: center;
+    color:rgb(239, 14, 14);
+    background-image: url('gamez.jpg');
+}
+
+
+/* input[type="number"] {
+    width: 50%;
+    max-width: 300px; 
+    padding: 5px;
+    font-size: 16px;
+    margin: 10px ;
+    border: 2px solid #5e60ce;
+    border-radius: 5px;
+    outline: none;
+} */
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #5e60ce;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4a47a3;
+}
+
+#msg {
+    font-size: 20px; 
+    margin-top: 20px;
+    color:blue;
+}
